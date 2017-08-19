@@ -57,7 +57,46 @@
       </ul>
     </div>
     <div class="row large-uncollapse">
-      <div class=" small-12 medium-3 large-3 callout primary "><h2 class="capitalize">productos <br> destacados</h2></div>
+      <div class=" small-12 medium-3 large-3 callout primary "><h2 class="capitalize">productos  destacados</h2>
+        <form class="form" action="index.html" method="post">
+          <label for="name">por nombre</label>
+          <input type="text" name="nombre del producto" id="name">
+          <label for="ref">por referencia</label>
+          <input type="text" name="referencia del producto" id="ref">
+          <p class="help-text" id="ayudatexto" required-aria-describedby="ayuda texto">numero unico del producto</p>
+          <label for="categoria">por categoria</label>
+          <select class="text" name="categoria"></select>
+          <div class" row column">
+            <fieldset class="fieldset">
+            <legend>tipo de producto</legend>
+            <input type="checkbox" name="nuevo" id="nuevo"><label for="nuevo">nuevo</label>
+            <input type="checkbox" name="usado" id="tipo"><label for="tipo">usado</label>
+            </fieldset>
+          </div>
+          <div class" row column">
+            <fieldset class="fieldset">
+            <legend>tipo de precio</legend>
+            <input type="checkbox" name="pleno" id="pleno"><label for="pleno">nuevo</label>
+            <input type="checkbox" name="oferta" id="oferta"><label for="oferta">usado</label>
+            </fieldset>
+            </div>
+
+            <div class="row column text-center">
+                  <label>¿Buscar productos agotados?</label>
+                  <div class="switch medium">
+                    <input class="switch-input" id="agotados-switch" type="checkbox">
+                    <label class="switch-paddle" for="agotados-switch">
+                      <span class="switch-active" aria-hidden="true">Si</span>
+                      <span class="switch-inactive" aria-hidden="true">No</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="row column text-center">
+                <a href="#"class="button">busqueda</a>
+
+                </div>
+              </form>
+            </div>
       <div class=" small-12 medium-8 large-8 callout ">
         <div class="row callout"><h3>stereo</h3></div>
         <div class="row">
@@ -75,7 +114,7 @@
     </div>
 
 
-       </div>
+
 
 
 
